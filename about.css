@@ -22,8 +22,9 @@ a{
     text-align: center;
     font-size: 50px;
     color:black;
-    margin-top: 5px;
-    border-top: 1px solid sienna;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid lightsalmon;
        
 }
 .container{
@@ -34,72 +35,87 @@ a{
 
 .placeholder {
     margin-top: 10px;
-    width: 850px;
-    height: 300px;
-    margin-left: 25px;
-    border:thick double greenyellow;
+    width: 800px;
+    height: 500px;
+    margin-left: 40px;
+    display: inline-block;
+    border-style: double;
+    border-color: black;
     
 }
 .imgone{
     float: left;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    margin-left: 125px;
-    margin-top: 40px;
-    box-shadow: 3px 3px gray, -1em 0 .4em olive;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 40px -16px rgba(132, 191, 153, 1);
+    /* transform: rotate(90deg); */
+    display: inline-block;
+    border-style: groove;
+    border-color: black;
     
 } 
 
 .imgtwo{
     float:right;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    margin-right: 100px;
-    margin-top: 40px;
-    box-shadow: 60px -16px teal;
+    margin-right: 95px;
+    margin-top: 30px;
+    box-shadow: 40px -16px lightskyblue;
+    /* transform: rotate(90deg); */
+    border-style: groove;
+    border-color: black;
  }
 .imgthree{
     float: left;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    margin-top: 100px;
-    margin-left: 125px;
+    margin-top: 130px;
+    margin-left: 40px;
     box-shadow: -5px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 40px -16px lightslategray;
+    /* transform: rotate(90deg); */
+    border-style: groove;
+    border-color: black;
 }
 .imgfour{
     float: right;
-    height: 300px;
+    height: 400px;
     width: 300px;
-    margin-top: 100px;
-    margin-right: 100px;
-    box-shadow: 10px 8px 8px red;
-   
+    margin-top: 130px;
+    margin-right: 95px;
+    box-shadow: 40px -16px rgba(21, 113, 69, 1);
+    /* transform: rotate(90deg); */
+    border-style: groove;
+    border-color: black;
 }
 
 .pone{
     position: absolute;
-    margin-top: 350px;
-    margin-left: 130px;
+    margin-top: 440px;
+    margin-left: 47px;
     width: 300px;
     
 }
 .ptwo{
     position: absolute;
-    margin-top: 350px;
-    margin-left: 500px;
+    margin-top: 440px;
+    margin-left: 505px;
     width: 300px;
 }
 .pthree{
     position: absolute;
-    margin-top: 745px;
-    margin-left: 130px;
+    margin-top: 975px;
+    margin-left: 47px;
     width: 300px;
     height: 300px;
 }
 .pfour{
     position: relative;
-    margin-left: 500px;
+    margin-left: 505px;
+    margin-top: 975px;
     width:300px;
 }
 .footerinfo{
@@ -114,3 +130,4 @@ footer{
     margin-top: 10px;
     border-top: 1px solid sienna;
 }
+
