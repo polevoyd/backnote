@@ -18,8 +18,8 @@ nav{
 nav a{
     border: 1px solid sienna;
     text-decoration: none;
-    font-size: 20px;
-    margin-left: 20px; 
+    font-size: 1.1em;
+    
     padding: 10px;
 
 }
@@ -74,7 +74,7 @@ a{
     float:right;
     height: 400px;
     width: 300px;
-    margin-right: 95px;
+    margin-right: 85px;
     margin-top: 30px;
     box-shadow: 30px -20px lightskyblue;
     /* transform: rotate(90deg); */
@@ -98,7 +98,7 @@ a{
     height: 400px;
     width: 300px;
     margin-top: 130px;
-    margin-right: 95px;
+    margin-right: 85px;
     box-shadow: 30px -20px rgb(99, 148, 124);
     /* transform: rotate(90deg); */
     border-style: groove;
@@ -131,7 +131,7 @@ a{
     margin-top: 975px;
     width:300px;
 }
-.footerinfo{
+#footerinfo{
     text-align: center;
     margin-top: -15px;
     font-size: 15px;
