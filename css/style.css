@@ -39,29 +39,9 @@ a:visited{
   color: black;
 }
 
-
 #social-media {
   float: right;
   margin-right: 10px;
-}
-
-.hero-image {
-  height: 540px;
-  width: 960px;
-  background-image: url("https://challenges.mk/wp-content/uploads/2012/04/placeholder_wide1-960x540-crop.jpg");
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 30%;
-  left: 37.5%;
-  font-family: 'Open Sans Condensed',sans-serif;
 }
 
 /* form {
@@ -93,6 +73,9 @@ h3 {
   margin-right: 10px;
 }
 
+#saveButton{
+  
+}
 
 footer {
   text-align: center;
