@@ -6,6 +6,7 @@ body{
 
 header{
     font-size: 25px; 
+    
 }
 
 nav{
@@ -30,7 +31,8 @@ a{
 .container{
     margin: 0 auto;
     width: 900px;
-    background-color:white;   
+    background-color:white; 
+    
 }
 
 .placeholder {
@@ -49,7 +51,8 @@ a{
     width: 300px;
     margin-left: 40px;
     margin-top: 30px;
-    box-shadow: 40px -16px rgba(132, 191, 153, 1);
+    box-shadow: 30px -20px rgb(170, 209, 184);
+    opacity: 10%;
     /* transform: rotate(90deg); */
     display: inline-block;
     border-style: groove;
@@ -63,7 +66,7 @@ a{
     width: 300px;
     margin-right: 95px;
     margin-top: 30px;
-    box-shadow: 40px -16px lightskyblue;
+    box-shadow: 30px -20px lightskyblue;
     /* transform: rotate(90deg); */
     border-style: groove;
     border-color: black;
@@ -75,7 +78,7 @@ a{
     margin-top: 130px;
     margin-left: 40px;
     box-shadow: -5px;
-    box-shadow: 40px -16px lightslategray;
+    box-shadow: 30px -20px rgb(148, 151, 155);
     /* transform: rotate(90deg); */
     border-style: groove;
     border-color: black;
@@ -86,7 +89,7 @@ a{
     width: 300px;
     margin-top: 130px;
     margin-right: 95px;
-    box-shadow: 40px -16px rgba(21, 113, 69, 1);
+    box-shadow: 30px -20px rgb(99, 148, 124);
     /* transform: rotate(90deg); */
     border-style: groove;
     border-color: black;
