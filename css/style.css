@@ -9,21 +9,26 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width: 960px;
     background: rgb(233, 233, 233);
   }
   
-  .home{
+  #home{
     position: relative;
     left: 10px;
   }
 
-  .about{
+  #about{
     position: relative;
     right: 10px;
   }
 
+  #about a{
+   float: right;
+    right: 10px;
+  }
    
   .nav ul {
     list-style: none;
