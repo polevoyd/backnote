@@ -11,7 +11,17 @@ header{
 
 nav{
     font-size: 20px;
-    margin-left: 20px;     
+    margin-left: 20px; 
+    padding: 10px;
+                   
+}
+nav a{
+    border: 1px solid sienna;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 20px; 
+    padding: 10px;
+
 }
 
 a{
