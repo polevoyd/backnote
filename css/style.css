@@ -1,7 +1,22 @@
+*{
+  border: 1px solid #005f5f;
+}
+
+#centerContent{
+  position: relative;
+  left: 25px;
+  width: 1300px;
+}
+
 body {
     margin: 0;
     padding: 0;
     background: #ccc;
+  }
+  
+  .about{
+    position: relative;
+    right: 10px
   }
    
   .nav ul {
