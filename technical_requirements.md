@@ -1,7 +1,7 @@
 <!--Technical requirements
 Once you have instructor approval, break your MVP user stories down into technical requirements. Save these in a technical-requirements.md file in your repo.-->
 
-##MVP
+## MVP
 - Create extension for Mozilla Firefox that can grab text from 
 website and post to 'personal notebook' page with minimal 
 number of actions. -
