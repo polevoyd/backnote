@@ -1,0 +1,101 @@
+
+body{
+  color: black;
+  font-family: 'Open Sans Condensed';
+  
+}
+
+.container{
+  margin: 0 auto;
+  width: 900px;
+  background-color: white;
+}
+.socialmedia{
+  float:right;
+  
+}
+nav a {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px;
+  
+} 
+a {
+  color: black;
+}
+a:hover{
+  color:rgb(206,103,206);
+}
+h1{
+  font-size: 50px;
+}
+
+h3{
+   border-bottom: 1px solid lightsalmon; 
+  font-size: 30px;
+  margin-top:40px;
+}
+.instructions {
+  width:700px;
+
+} 
+.pone{
+  margin-bottom:20px;
+  
+}
+.imgone{
+  float: left;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 20px -15px rgb(201, 133, 30);
+  margin-top: 20px;
+}
+.listone{
+  margin-left:350px;
+  position: absolute;
+  width:500px;
+  margin-top: 100px;
+}
+
+.imgtwo{
+  float: left;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right:400px;
+  box-shadow: 20px -15px rgb(201, 133, 30);
+}
+.listtwo{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 450px;
+
+}
+.imgthree{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  
+  box-shadow: 20px -15px rgb(201, 133, 30);
+
+}
+
+.listthree{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 800px;
+
+}
+#footerinfo{
+  text-align: center;
+  margin-top: 980px;
+  font-size: 15px;
+  line-height: 8px;
+  padding: 80px;
+  
+
+}
