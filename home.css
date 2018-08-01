@@ -119,11 +119,21 @@ button {
     font-weight: bold;
     padding: 10px;
     margin-top: 15px;
+    margin-left: 2%;
     /* margin-left: 44%; */
+}
+
+#reset-button {
+    background-color: darkblue;
 }
 
 button:hover {
     background-color: rgb(95, 47, 81);
+}
+
+#reset-button:hover {
+    background-color: darkgoldenrod;
+    color: black;
 }
 
 
