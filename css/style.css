@@ -1,85 +1,101 @@
-body, html{
-  height: 100%;
-}
 
-.container{
-  width: 960px;
-  margin: auto;
-  line-height: 1.5;
-}
-header{
-  border-bottom: 1px solid sienna;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1{
-  font-size: 2.8em;
-  font-weight: 700;
-}
-
-nav{
-  margin-bottom: 2.5%;
-}
-
-nav a{
-  padding: 10px;
-  border: 1px solid sienna;
-  text-decoration: none;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1.1em;
-  font-weight: 600;
+body{
   color: black;
-}
-
-a:hover{
-  color: rgb(206, 103, 206);
-}
-
-a:visited{
-  color: black;
-}
-
-#social-media {
-  float: right;
-  margin-right: 10px;
-}
-
-/* form {
-  width: 15%;
-  position: absolute;
-  top: 60%;
-  left: 42.5%;
-}
-fieldset {
-  border: hidden;
-}
-button {
-  background-color: rgb(146, 43, 43);
-  color: white;
-  padding: 5px;
-  margin-top: 2%;
-} */
-
-h3 {
-  font-family: 'Lobster';
-  font-size: 1.5em;
-}
-
-.text-body-home {
-  text-align: justify;
   font-family: 'Open Sans Condensed';
-  font-size: 1.2em;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#saveButton{
   
 }
 
-footer {
+.container{
+  margin: 0 auto;
+  width: 900px;
+  background-color: white;
+}
+.socialmedia{
+  float:right;
+  
+}
+nav a {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px;
+  
+} 
+a {
+  color: black;
+}
+a:hover{
+  color:rgb(206,103,206);
+}
+h1{
+  font-size: 50px;
+}
+
+h3{
+   border-bottom: 1px solid lightsalmon; 
+  font-size: 30px;
+  margin-top:40px;
+}
+.instructions {
+  width:700px;
+
+} 
+.pone{
+  margin-bottom:20px;
+  
+}
+.imgone{
+  float: left;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  box-shadow: 20px -15px rgb(201, 133, 30);
+  margin-top: 20px;
+}
+.listone{
+  margin-left:350px;
+  position: absolute;
+  width:500px;
+  margin-top: 100px;
+}
+
+.imgtwo{
+  float: left;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right:400px;
+  box-shadow: 20px -15px rgb(201, 133, 30);
+}
+.listtwo{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 450px;
+
+}
+.imgthree{
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  
+  box-shadow: 20px -15px rgb(201, 133, 30);
+
+}
+
+.listthree{
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 800px;
+
+}
+#footerinfo{
   text-align: center;
-  border-top: 1px solid sienna;
-  font-family: 'Open Sans Condensed';
-  font-size: 1.2em;
+  margin-top: 980px;
+  font-size: 15px;
+  line-height: 8px;
+  padding: 80px;
+  
+
 }
