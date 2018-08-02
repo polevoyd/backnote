@@ -34,11 +34,11 @@ nav a {
 
 }
 
-a:hover {
+nav a:hover {
     color: rgb(206, 103, 206);
 }
 
-a:visited {
+nav a:visited {
     color: black;
 }
 
@@ -108,7 +108,7 @@ fieldset {
     border: hidden;
 }
 
-#text-field {
+.text-field {
     height: 2em;
     width: 200px;
 }
@@ -132,7 +132,7 @@ button:hover {
 }
 
 #reset-button:hover {
-    background-color: darkgoldenrod;
+    background-color: rgb(236, 217, 169);
     color: black;
 }
 
@@ -142,4 +142,33 @@ footer {
     border-top: 1px solid sienna;
     font-family: 'Open Sans Condensed';
     font-size: 1.2em;
+}
+
+/* popup styling*/
+
+#popup {
+    position: relative;
+    border: 1px solid sienna;
+    width: 20%;
+    text-align: center;
+}
+
+#popup .header {
+    text-align: right;
+}
+
+
+
+#popup p {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#close {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+
 }
