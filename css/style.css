@@ -1,0 +1,136 @@
+
+body{
+  color: black;
+  font-family: 'Open Sans Condensed';
+  
+}
+
+.container{
+  margin: 0 auto;
+  width: 900px;
+  background-color: white;
+}
+.socialmedia{
+  float:right;
+  
+}
+nav a {
+  border: 1px solid black;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px;
+  
+} 
+a {
+  color: black;
+}
+a:hover{
+  color:rgb(206,103,206);
+}
+h1{
+  font-size: 50px;
+}
+
+h3{
+   border-bottom: 1px solid lightsalmon; 
+  font-size: 30px;
+  margin-top:40px;
+}
+
+
+.instructions {
+  width:700px;
+}
+
+
+.examOne{
+  position: absolute;
+  float:right;
+  margin-left: 520px;
+  font-size: 20px;
+  font-style: italic;
+  
+
+} 
+.giphy-embed{
+  
+  border-width: 3px;
+  border-color: black;
+}
+.giphy-two{
+  float:left;
+  margin-top:200px;
+  margin-bottom: 40px;
+  border-width: 3px;
+  border-color: black;
+  margin-top: 140px;
+}
+.giphy-three{
+  border-width: 3px;
+  border-color: black;
+}
+.giphy-four{
+  margin-top: 40px;
+  border-width: 3px;
+  border-color: black;
+}
+.line{
+  border-top: 1px solid lightsalmon;
+  margin-top: 40px;
+  
+}
+.pone{
+  padding-top: 35px;
+  border-top: 1px solid lightsalmon;
+  margin-bottom:10px;
+  margin-top: 30px;
+  font-size: 20px;
+  
+}
+
+.listone{
+  margin-left:20px;
+  
+  position: absolute;
+  width:500px;
+  font-size: 20px;
+ 
+}
+
+
+.listtwo{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -560px;
+  width: 500px;
+  font-size: 20px;
+  line-height: 60px;
+  
+
+}
+
+.listthree{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -250px;
+  font-size: 20px;
+
+}
+.listfour{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -300px;
+  width: 500px;
+  font-size: 20px;
+  line-height: 40px;
+}
+#footerinfo{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 15px;
+  line-height: 8px;
+  padding: 30px;
+}
+ul{
+  list-style-type: none;
+}
