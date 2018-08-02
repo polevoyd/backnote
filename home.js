@@ -1,35 +1,28 @@
-
 var signupForm = document.getElementById('newsletter-form');
-// var feedbackData = [];
 
-function NewsletterItem(name, email, textArea){
-    this.name = name;
-    this.email = email;
-    this.textArea = textArea;
+//create constructor for newletter item
+function NewsletterItem(name, email, textArea) {
+  this.name = name;
+  this.email = email;
+  this.textArea = textArea;
 
-    // feedbackData.push(this);
-    localStorage.setItem(this.email, JSON.stringify(this));
+  localStorage.setItem(this.email, JSON.stringify(this));
 
-    
+
 }
 
 signupForm.addEventListener('submit', hitSignup);
 
 function hitSignup(e) {
-    e.preventDefault();
+  e.preventDefault();
 
-    
-    var name = document.getElementById('name').value;
-    console.log(name, ' works');
-    
-    var email = document.getElementById('e-mail').value;
-    var textArea = document.getElementById('textarea').value;
 
-    // feedbackData.push(name);
-    // feedbackData.push(email);
-    // feedbackData.push(textArea);
+  var name = document.getElementById('name').value;
 
-    new NewsletterItem(name, email, textArea);
+  var email = document.getElementById('e-mail').value;
+  var textArea = document.getElementById('textarea').value;
+
+  new NewsletterItem(name, email, textArea);
 
 }
 
@@ -37,7 +30,7 @@ function hitSignup(e) {
 if (localStorage.getItem(this.email)) {
 
 
-    JSON.parse(localStorage.getItem(this.email));
+  JSON.parse(localStorage.getItem(this.email));
 
 }
 
@@ -45,34 +38,28 @@ var submitButton = document.getElementById('submit-button');
 
 submitButton.addEventListener('click', openPopup);
 
-function openPopup(){
-    //popup message
-    var msg = '<div class=\"header\"><a id = \"close\" href="#">X</a></div>';
-    msg += '<div><h3>Thank you!</h3></div>';
-    msg += '<div><img src=\"images/groupimg.jpg\" width =\ "306px\" height =\ "auto\"></div>';
-    msg += '<p>We appreciate your support ' + name + '<br>' + 'Welcome to the Backnote community!<br>';
-    msg += 'You have been locally stored :-)<p>';
+var popupElement = document.getElementById('popup');
+// var popupElement = document.createElement('div');
 
-    var popupElement = document.createElement('div');
-    popupElement.setAttribute('id', 'popup');
-    popupElement.innerHTML = msg;
-    document.body.appendChild(popupElement);
+function openPopup() {
+
+
+  var name = document.getElementById('name').value;
+  //popup message
+  var msg = '<div class="header"><a id = "close" href="#">X</a></div>';
+  msg += '<div><h3>Thank you!</h3></div>';
+  msg += '<div><img src="images/groupimg.jpg" width ="306px" height ="auto"></div>';
+  msg += '<p>We appreciate your support ' + name + '.<br>' + 'Welcome to the Backnote community!<br>';
+  msg += 'You have been locally stored :-)<p>';
+
+  popupElement.innerHTML = msg;
+  var closeElement = document.getElementById('close');
+  closeElement.addEventListener('click', closePopup);
+
 }
 
 
-function closePopup(){
-    document.body.removeChild(popupElement);
+function closePopup(e) {
+  e.preventDefault();
+  popupElement.remove();
 }
-
-var closeElement = document.getElementById('close');
-closeElement.addEventListener('click',closePopup);
-
-// openPopup();
-
-// closePopup();
-
-    
-    
-    
-
-
