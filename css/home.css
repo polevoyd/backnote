@@ -147,10 +147,14 @@ footer {
 /* popup styling*/
 
 #popup {
-    position: relative;
-    border: 1px solid sienna;
-    width: 20%;
+    position: fixed;
+    /* border: 1px solid sienna; */
+    width: 40%;
     text-align: center;
+    /* display: none; */
+    /* visibility: hidden; */
+    top: 5%;
+    left: 30%; 
 }
 
 #popup .header {
@@ -175,5 +179,6 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 1.5em;
+    margin-right:2%;
 
 }
