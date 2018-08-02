@@ -51,8 +51,8 @@ nav a:visited {
 .hero-image {
     height: 540px;
     width: 960px;
-    background-image: url(images/notebook-2637726_1280.jpg);
-    opacity: 0.7;
+    background-image: url(/images/notebook-2637726_1280.jpg);
+    /* opacity: 0.7; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@ nav a:visited {
 #hero-1 {
     font-size: 4.5em;
     font-weight: 800;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.7);
 }
 
 #hero-2 {
