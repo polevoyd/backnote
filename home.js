@@ -46,15 +46,24 @@ function openPopup() {
 
   var name = document.getElementById('name').value;
   //popup message
+  
+
   var msg = '<div class="header"><a id = "close" href="#">X</a></div>';
   msg += '<div><h3>Thank you!</h3></div>';
   msg += '<div><img src="images/groupimg.jpg" width ="306px" height ="auto"></div>';
   msg += '<p>We appreciate your support ' + name + '.<br>' + 'Welcome to the Backnote community!<br>';
   msg += 'You have been locally stored :-)<p>';
 
+  
+  
   popupElement.innerHTML = msg;
+  
+  popupElement.style.border ='1px solid sienna';
+  popupElement.style.backgroundColor = 'white';
+  
   var closeElement = document.getElementById('close');
   closeElement.addEventListener('click', closePopup);
+  
 
 }
 
