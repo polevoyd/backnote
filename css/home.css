@@ -51,7 +51,7 @@ nav a:visited {
 .hero-image {
     height: 540px;
     width: 960px;
-    background-image: url(images/notebook-2637726_1280.jpg);
+    background-image: url(/images/notebook-2637726_1280.jpg);
     opacity: 0.7;
     background-position: center;
     background-repeat: no-repeat;
