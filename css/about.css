@@ -90,7 +90,7 @@ a{
     height: 400px;
     width: 300px;
     margin-top: 130px;
-    margin-left: 40px;
+    margin-left: 50px;
     box-shadow: -5px;
     box-shadow: 30px -20px rgb(148, 151, 155);
     /* transform: rotate(90deg); */
@@ -119,19 +119,19 @@ a{
 .ptwo{
     position: absolute;
     margin-top: 440px;
-    margin-left: 505px;
+    margin-left: 515px;
     width: 300px;
 }
 .pthree{
     position: absolute;
     margin-top: 975px;
-    margin-left: 47px;
+    margin-left: 55px;
     width: 300px;
     height: 300px;
 }
 .pfour{
     position: relative;
-    margin-left: 505px;
+    margin-left: 515px;
     margin-top: 975px;
     width:300px;
 }
