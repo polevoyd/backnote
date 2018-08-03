@@ -13,6 +13,7 @@ body{
 .socialmedia{
   float:right;
   
+  
 }
 nav a {
   border: 1px solid black;
@@ -23,6 +24,7 @@ nav a {
 } 
 a {
   color: black;
+  font-weight: bold;
 }
 a:hover{
   color:rgb(206,103,206);
@@ -32,9 +34,11 @@ h1{
 }
 
 h3{
-   border-bottom: 1px solid lightsalmon; 
+   border-top: 1px solid sienna; 
   font-size: 30px;
-  margin-top:40px;
+  margin-top:20px;
+  padding-top: 10px;
+  width: 960px;
 }
 
 
@@ -75,13 +79,15 @@ h3{
   border-color: black;
 }
 .line{
-  border-top: 1px solid lightsalmon;
+  border-top: 1px solid sienna;
   margin-top: 40px;
+  width: 960px;
   
 }
 .pone{
   padding-top: 35px;
-  border-top: 1px solid lightsalmon;
+  border-top: 1px solid sienna;
+  width: 960px;
   margin-bottom:10px;
   margin-top: 30px;
   font-size: 20px;
@@ -125,6 +131,8 @@ h3{
   line-height: 40px;
 }
 #footerinfo{
+  border-top: 1px solid sienna; 
+  width: 960px;
   text-align: center;
   margin-top: 80px;
   font-size: 15px;
