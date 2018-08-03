@@ -7,7 +7,7 @@ body{
 
 .container{
   margin: 0 auto;
-  width: 900px;
+  width: 960px;
   background-color: white;
 }
 .socialmedia{
@@ -16,7 +16,7 @@ body{
   
 }
 nav a {
-  border: 1px solid black;
+  border: 1px solid sienna;
   text-decoration: none;
   font-size: 1.1em;
   padding: 10px;
