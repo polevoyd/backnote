@@ -11,10 +11,11 @@ body, html {
 header {
     border-bottom: 1px solid sienna;
     font-family: 'Open Sans Condensed', sans-serif;
+    
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 50px;
     font-weight: 700;
 }
 
@@ -57,6 +58,10 @@ nav a:hover {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 10px;
 
 
 }
@@ -67,6 +72,7 @@ nav a:hover {
     top: 30%;
     left: 41%;
     font-family: 'Open Sans Condensed',sans-serif;
+    
 }
 
 #hero-1 {
