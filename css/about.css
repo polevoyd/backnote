@@ -10,22 +10,26 @@ header{
 }
 
 nav{
-    font-size: 20px;
-    margin-left: 20px; 
+    font-size: 15px;
+    margin-left: -7px; 
     padding: 10px;
+   
+    
                    
 }
 nav a{
     border: 1px solid sienna;
     text-decoration: none;
     font-size: 1.1em;
-    
+    font-weight: bold;
     padding: 10px;
+    
 
 }
 
 a{
     color:black;
+    
 }
 
 .meetteam{
@@ -35,7 +39,7 @@ a{
     color:black;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-top: 1px solid lightsalmon;
+    border-top: 1px solid sienna;
        
 }
 .container{
